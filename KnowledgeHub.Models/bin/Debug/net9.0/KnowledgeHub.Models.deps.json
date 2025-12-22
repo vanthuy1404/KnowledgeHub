@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "KnowledgeHub.Models/1.0.0": {
+        "runtime": {
+          "KnowledgeHub.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KnowledgeHub.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

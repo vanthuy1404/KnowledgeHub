@@ -1,0 +1,15 @@
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\bin\Debug\net9.0\KnowledgeHub.Repository.deps.json
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\bin\Debug\net9.0\KnowledgeHub.Repository.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\bin\Debug\net9.0\KnowledgeHub.Repository.pdb
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\bin\Debug\net9.0\KnowledgeHub.Data.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\bin\Debug\net9.0\KnowledgeHub.Data.pdb
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.csproj.AssemblyReference.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.AssemblyInfoInputs.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.AssemblyInfo.cs
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.csproj.CoreCompileInputs.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\Knowledg.83234E26.Up2Date
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\refint\KnowledgeHub.Repository.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\KnowledgeHub.Repository.pdb
+D:\Projects\KnowledgeHub\KnowledgeHub.Repository\obj\Debug\net9.0\ref\KnowledgeHub.Repository.dll

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHub.Api", "KnowledgeHub.Api\KnowledgeHub.Api.csproj", "{87524F95-DB13-4224-BFD1-0C7C94FA9C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHub.Models", "KnowledgeHub.Models\KnowledgeHub.Models.csproj", "{32137FB5-B42D-4857-8674-1213BE92AC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHub.Services", "KnowledgeHub.Services\KnowledgeHub.Services.csproj", "{0A0DAEED-ED8F-4955-8B29-BD175D217A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHub.Repository", "KnowledgeHub.Repository\KnowledgeHub.Repository.csproj", "{21990529-2B93-4813-94B6-DB481F28631A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeHub.Data", "KnowledgeHub.Data\KnowledgeHub.Data.csproj", "{026BCDA9-5172-4155-A266-96DC70170DF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87524F95-DB13-4224-BFD1-0C7C94FA9C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87524F95-DB13-4224-BFD1-0C7C94FA9C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87524F95-DB13-4224-BFD1-0C7C94FA9C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87524F95-DB13-4224-BFD1-0C7C94FA9C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32137FB5-B42D-4857-8674-1213BE92AC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32137FB5-B42D-4857-8674-1213BE92AC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32137FB5-B42D-4857-8674-1213BE92AC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32137FB5-B42D-4857-8674-1213BE92AC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0DAEED-ED8F-4955-8B29-BD175D217A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0DAEED-ED8F-4955-8B29-BD175D217A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0DAEED-ED8F-4955-8B29-BD175D217A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0DAEED-ED8F-4955-8B29-BD175D217A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21990529-2B93-4813-94B6-DB481F28631A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21990529-2B93-4813-94B6-DB481F28631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21990529-2B93-4813-94B6-DB481F28631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21990529-2B93-4813-94B6-DB481F28631A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026BCDA9-5172-4155-A266-96DC70170DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026BCDA9-5172-4155-A266-96DC70170DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026BCDA9-5172-4155-A266-96DC70170DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026BCDA9-5172-4155-A266-96DC70170DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

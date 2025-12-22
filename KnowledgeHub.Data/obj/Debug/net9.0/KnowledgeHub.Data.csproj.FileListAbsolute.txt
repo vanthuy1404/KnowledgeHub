@@ -1,0 +1,14 @@
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\bin\Debug\net9.0\KnowledgeHub.Data.deps.json
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\bin\Debug\net9.0\KnowledgeHub.Data.runtimeconfig.json
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\bin\Debug\net9.0\KnowledgeHub.Data.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\bin\Debug\net9.0\KnowledgeHub.Data.pdb
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.csproj.AssemblyReference.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.AssemblyInfoInputs.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.AssemblyInfo.cs
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.csproj.CoreCompileInputs.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\refint\KnowledgeHub.Data.dll
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.pdb
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\KnowledgeHub.Data.genruntimeconfig.cache
+D:\Projects\KnowledgeHub\KnowledgeHub.Data\obj\Debug\net9.0\ref\KnowledgeHub.Data.dll
