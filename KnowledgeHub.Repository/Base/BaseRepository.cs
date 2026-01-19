@@ -37,4 +37,19 @@ public abstract class BaseRepository<TEntity>
         _dbSet.Remove(entity);
         await _context.SaveChangesAsync();
     }
+
+    public virtual async Task Add(TEntity entity)
+    {
+        await _dbSet.AddAsync(entity);
+    }
+
+    public virtual void Update(TEntity entity)
+    {
+        _dbSet.Update(entity);
+    }
+
+    public virtual void Delete(TEntity entity)
+    {
+        _dbSet.Remove(entity);
+    }
 }

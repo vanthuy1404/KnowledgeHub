@@ -1,20 +1,19 @@
 ﻿// 21/12/2025 - 18:13:37
 // DANGTHUY
 
-using System.Reflection;
 using KnowledgeHub.Data.Entities.Auth;
 using KnowledgeHub.Services.Auth;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options; // Thêm dòng này
+using System.Reflection;
 
 
 namespace KnowledgeHub.Services.Extensions;
 
 public static class DependencyInjectionExtension
 {
-    public static IServiceCollection AddServices(this IServiceCollection services,  IConfiguration configuration)
+    public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
     {
         var assembly = Assembly.GetExecutingAssembly();
 
