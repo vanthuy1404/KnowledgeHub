@@ -6,20 +6,20 @@ namespace KnowledgeHub.Services.File.Implementations
 {
     public class FileService : IFileService
     {
-        private readonly IMinioService _minioServiceơ;
-        public FileService(IMinioService minioServiceơ)
+        private readonly IMinioService _minioService;
+        public FileService(IMinioService minioService)
         {
-            _minioServiceơ = minioServiceơ;
+            _minioService = minioService;
         }
 
         public async Task uploadFileAsync(IFormFile file)
         {
-            await _minioServiceơ.UploadAsync(file, "documents");
+            await _minioService.UploadAsync(file, "documents");
         }
 
         public async Task<Stream> DowloadFileAsync(string fileName)
         {
-            var stream = await _minioServiceơ.DownloadAsync($"documents/{fileName}");
+            var stream = await _minioService.DownloadAsync($"documents/{fileName}");
             return stream;
         }
 
