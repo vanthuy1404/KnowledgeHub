@@ -4,7 +4,7 @@ namespace KnowledgeHub.Services.File.Interfaces
 {
     public interface IFileService
     {
-        Task uploadFileAsync(IFormFile file);
-        Task<Stream> DowloadFileAsync(string fileName);
+        Task<string> UploadFileAsync(IFormFile file, string? folder = null);
+        Task<Stream> DownloadFileAsync(string objectKey);
     }
 }

@@ -12,16 +12,16 @@ namespace KnowledgeHub.Services.File.Implementations
             _minioService = minioService;
         }
 
-        public async Task uploadFileAsync(IFormFile file)
+        // folder truyền vào, default null
+        public async Task<string> UploadFileAsync(IFormFile file, string? folder = null)
         {
-            await _minioService.UploadAsync(file, "documents");
+            return await _minioService.UploadAsync(file, folder);
         }
 
-        public async Task<Stream> DowloadFileAsync(string fileName)
+        // nên download theo objectKey (đầy đủ) thay vì chỉ fileName
+        public async Task<Stream> DownloadFileAsync(string objectKey)
         {
-            var stream = await _minioService.DownloadAsync($"documents/{fileName}");
-            return stream;
+            return await _minioService.DownloadAsync(objectKey);
         }
-
     }
 }
