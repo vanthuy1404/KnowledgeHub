@@ -7,6 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Minio" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\KnowledgeHub.Data\KnowledgeHub.Data.csproj" />
     </ItemGroup>
 

@@ -3,6 +3,7 @@ using KnowledgeHub.Data.Extensions;
 using KnowledgeHub.Repository.Extensions;
 using KnowledgeHub.Services.Extensions;
 using Microsoft.AspNetCore.Identity;
+using Minio;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,9 +23,24 @@ builder.Services.AddServices(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
+// Cấu hình minio
+builder.Services.AddSingleton<IMinioClient>(sp =>
+{
+    var config = sp.GetRequiredService<IConfiguration>();
+
+    return new MinioClient()
+        .WithEndpoint(config["Minio:Endpoint"])
+        .WithCredentials(
+            config["Minio:AccessKey"],
+            config["Minio:SecretKey"]
+        )
+        .WithSSL(bool.Parse(config["Minio:UseSSL"]))
+        .Build();
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline.  
 if (app.Environment.IsDevelopment())
 {
     // Map OpenAPI JSON
